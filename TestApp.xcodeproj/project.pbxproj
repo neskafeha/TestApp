@@ -15,6 +15,11 @@
 		FF31580D26963B9900455E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF31580B26963B9900455E9A /* LaunchScreen.storyboard */; };
 		FF31581826963B9900455E9A /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31581726963B9900455E9A /* TestAppTests.swift */; };
 		FF31582326963B9900455E9A /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31582226963B9900455E9A /* TestAppUITests.swift */; };
+		FF31583526963C0400455E9A /* ExchangeRatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31583326963C0400455E9A /* ExchangeRatesVC.swift */; };
+		FF31583626963C0400455E9A /* ExchangeRatesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF31583426963C0400455E9A /* ExchangeRatesVC.xib */; };
+		FF31583C26963CBA00455E9A /* ExchangeRatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31583A26963CBA00455E9A /* ExchangeRatesCell.swift */; };
+		FF31583D26963CBA00455E9A /* ExchangeRatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF31583B26963CBA00455E9A /* ExchangeRatesCell.xib */; };
+		FF31585026963D1800455E9A /* ExchangeRatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31584F26963D1800455E9A /* ExchangeRatesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		FF31581E26963B9900455E9A /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF31582226963B9900455E9A /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
 		FF31582426963B9900455E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF31583326963C0400455E9A /* ExchangeRatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesVC.swift; sourceTree = "<group>"; };
+		FF31583426963C0400455E9A /* ExchangeRatesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeRatesVC.xib; sourceTree = "<group>"; };
+		FF31583A26963CBA00455E9A /* ExchangeRatesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesCell.swift; sourceTree = "<group>"; };
+		FF31583B26963CBA00455E9A /* ExchangeRatesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeRatesCell.xib; sourceTree = "<group>"; };
+		FF31584F26963D1800455E9A /* ExchangeRatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		FF3157FF26963B9400455E9A /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				FF31584126963CC100455E9A /* ExchangeRatesVC */,
 				FF31580026963B9400455E9A /* AppDelegate.swift */,
 				FF31580226963B9400455E9A /* SceneDelegate.swift */,
 				FF31580426963B9400455E9A /* ViewController.swift */,
@@ -126,6 +137,26 @@
 				FF31582426963B9900455E9A /* Info.plist */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		FF31584126963CC100455E9A /* ExchangeRatesVC */ = {
+			isa = PBXGroup;
+			children = (
+				FF31584E26963CE900455E9A /* ExchangeRatesCell */,
+				FF31583326963C0400455E9A /* ExchangeRatesVC.swift */,
+				FF31583426963C0400455E9A /* ExchangeRatesVC.xib */,
+				FF31584F26963D1800455E9A /* ExchangeRatesData.swift */,
+			);
+			path = ExchangeRatesVC;
+			sourceTree = "<group>";
+		};
+		FF31584E26963CE900455E9A /* ExchangeRatesCell */ = {
+			isa = PBXGroup;
+			children = (
+				FF31583A26963CBA00455E9A /* ExchangeRatesCell.swift */,
+				FF31583B26963CBA00455E9A /* ExchangeRatesCell.xib */,
+			);
+			path = ExchangeRatesCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +264,9 @@
 			files = (
 				FF31580D26963B9900455E9A /* LaunchScreen.storyboard in Resources */,
 				FF31580A26963B9900455E9A /* Assets.xcassets in Resources */,
+				FF31583D26963CBA00455E9A /* ExchangeRatesCell.xib in Resources */,
 				FF31580826963B9400455E9A /* Main.storyboard in Resources */,
+				FF31583626963C0400455E9A /* ExchangeRatesVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +294,9 @@
 				FF31580526963B9400455E9A /* ViewController.swift in Sources */,
 				FF31580126963B9400455E9A /* AppDelegate.swift in Sources */,
 				FF31580326963B9400455E9A /* SceneDelegate.swift in Sources */,
+				FF31583C26963CBA00455E9A /* ExchangeRatesCell.swift in Sources */,
+				FF31585026963D1800455E9A /* ExchangeRatesData.swift in Sources */,
+				FF31583526963C0400455E9A /* ExchangeRatesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
